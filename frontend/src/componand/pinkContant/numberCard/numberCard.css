@@ -1,0 +1,42 @@
+.num h1{
+    background-color: #006743;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    position: relative;
+    left: 40px;
+}
+
+.num{
+    position: absolute;
+    position: relative;
+    right: 10px;
+}
+
+.border-textLine{
+    border: 1px dashed #89BEAC;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+@media(max-width:425px){
+    .num{
+        font-size: 6px;
+    }
+    .num h1{
+        width: 20px;
+    }
+    .border-textLine{
+        padding: 2px 1px 1px 2px;
+        position: absolute;
+        position: relative;
+        left: 20px;
+    }
+    .num{
+        position: absolute;
+        position: relative;
+        right: 30px;
+        
+    }
+}

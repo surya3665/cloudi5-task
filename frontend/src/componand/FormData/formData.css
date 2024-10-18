@@ -1,0 +1,117 @@
+.form{
+    text-align: center;
+    background-color: #D8E1DE;
+    padding-left: 470px;
+    padding-right: 470px;
+}
+.form small{
+    color: red;
+}
+.form span{
+    color:#797979 ;
+}
+
+.fill{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.name p{
+    padding-bottom: 20px;
+}
+
+.name input{
+    width: 793px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+
+.detail p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.detail input{
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.address{
+    padding-bottom: 50px;
+}
+.address input{
+    width: 793px;
+    height: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.address p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.button button{
+    width: 793px;
+    height: 56px;
+    color: white;
+    background-color: #A6A6A6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media(max-width:1440px){
+
+
+    .form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media(max-width:1025px){
+    .name input{
+        width: 593px;
+    }
+    .detail input{
+        width: 270px;
+    }
+    .address input{
+        width: 593px;
+    }
+    .button button{
+        width: 593px;
+    }
+}
+
+@media(max-width: 425px){
+    .name input{
+        width: 293px;
+        height: 30px;
+    }
+    .detail input{
+        width: 150px;
+        height: 30px;
+    }
+    .address input{
+        width: 293px;
+        height: 100px;
+    }
+    .button button{
+        width: 293px;
+        height: 30px;
+    }
+}

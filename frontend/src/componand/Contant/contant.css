@@ -1,0 +1,39 @@
+.contant__all{
+    text-align: left;
+    padding: 50px 100px 50px 300px;
+    background-color: #f9f9f9;
+}
+
+.contant__h2{
+    padding-bottom: 40px;
+}
+
+.contant__h2 span{
+    color: #006743;
+}
+
+.contant__p{
+    color: #4d4d4d;
+    letter-spacing: 1px;
+}
+
+@media(max-width:1440px){
+    .contant__all{
+        font-size: 12px;
+    }
+}
+@media(max-width:1025px){
+    .contant__all{
+        padding: 50px 100px 50px 150px;
+    }
+}
+@media(max-width:768px){
+    .contant__all{
+        font-size: 10px;
+    }
+}
+@media(max-width:425px){
+    .contant__all{
+        padding: 50px 100px 50px 30px;
+    }
+}

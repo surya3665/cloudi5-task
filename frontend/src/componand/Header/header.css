@@ -1,0 +1,145 @@
+.header{
+    width: 100%;
+    height: 60vh;
+    background-color: #023020;
+    display: flex;
+    position: absolute;
+    color: white;
+}
+
+.img{
+    padding-top: 45px;
+    padding-left: 55px;
+    z-index: 1;
+    position: relative;
+    bottom: 30px;
+}
+
+.phara{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    z-index: 1;
+}
+
+.h2{
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+
+.list ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 50px;
+}
+
+.list{
+    padding-bottom: 60px;
+}
+
+
+
+.btn1{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 183, 12);
+    color: white;
+    cursor: pointer;
+}
+
+.grp{
+    opacity: 0.2;
+    position: relative;
+}
+
+.grp1{
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+@media(max-width:1440px){
+    .phara{
+        position: relative;
+        left: 400px;
+        font-size: 10px;
+    }
+    .btn1{
+        padding: 5px 10px;
+    }
+
+    .list ul{
+        gap: 20px;
+    }
+    .list{
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width:1024px){
+    .phara{
+        position: relative;
+        left: 210px;
+        font-size: 10px;
+    }
+}
+@media(max-width:786px){
+    .phara{
+        position: relative;
+        top: 200px;
+        left: 250px;
+        font-size: 6px;
+    }
+    .list ul{
+        gap: 10px;
+    }
+    .img{
+        width: 50px;
+        height: 10px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+}
+
+@media(max-width:470px){
+    .phara{
+        position: relative;
+        top: 100px;
+        left: 90px;
+        font-size: 6px;
+    }
+
+    .h2{
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    .btn1{
+        font-size: 10px;
+    }
+
+    .header{
+        height: 40vh;
+    }
+    .grp1{
+        height: 40vh;
+    }
+}
+@media(max-width:375px){
+    .phara{
+        position: relative;
+        left: 60px;
+    }
+
+}
+@media(max-width:320px){
+    .phara{
+        position: relative;
+        left: 40px;
+    }
+}
